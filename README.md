@@ -34,41 +34,11 @@ To determine whether **Page B** leads to higher user engagement (measured by tim
 
 ---
 
-## 📁 Project Structure
-
-```
-page-engagement-ab-testing/
-│
-├── data/
-│   └── web_page_data.csv
-│
-├── notebook/
-│   └── ab_testing_analysis_notebook_full.ipynb
-│   └── ab_testing_analysis_notebook_full.pdf
-│
-├── ab_testing_dashboard_time/
-│   ├── app.py
-│   ├── scripts/
-│   └── visualizations.py
-│
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## 🚀 How to Run
 
 ### ▶ Run Notebook
 ```bash
 jupyter notebook notebook/ab_testing_analysis_notebook_full.ipynb
-```
-
-### ▶ Launch Streamlit App
-```bash
-cd ab_testing_dashboard_time
-pip install -r requirements.txt
-streamlit run app.py
 ```
 
 ---
