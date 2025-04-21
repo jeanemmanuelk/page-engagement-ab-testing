@@ -1,7 +1,6 @@
 # 📊 Page Engagement A/B Testing
 
-This project analyzes user engagement across two landing pages (Page A vs. Page B) using time-on-page as a **proxy metric** for effectiveness. It applies a complete A/B testing workflow, including statistical testing, confidence intervals, bootstrapping, and power analysis. Results are presented in both a Jupyter notebook and an interactive Streamlit dashboard.
-
+This project analyzes user engagement across two landing pages (Page A vs. Page B) using time-on-page as a **proxy metric** for effectiveness. It applies a complete A/B testing workflow, including statistical testing, confidence intervals, bootstrapping, and power analysis. Results are presented in a Jupyter notebook.
 ---
 
 ## 🧪 Project Objective
@@ -18,8 +17,7 @@ To determine whether **Page B** leads to higher user engagement (measured by tim
 - Measured **effect size** (Cohen’s d)
 - Conducted **statistical power analysis**
 - Visualized time distributions and mean comparisons
-- Delivered findings via **Streamlit dashboard** and **Jupyter notebook**
-- Exported analysis summary to PDF and CSV
+- Analysis summary
 
 ---
 
@@ -29,7 +27,6 @@ To determine whether **Page B** leads to higher user engagement (measured by tim
 - **Visualization**: matplotlib, seaborn, plotly
 - **Statistical Testing**: Welch’s t-test, bootstrapping, Cohen’s d
 - **Power Analysis**: TTestIndPower (statsmodels)
-- **UI**: Streamlit
 - **Notebook**: Jupyter
 
 ---
@@ -38,7 +35,7 @@ To determine whether **Page B** leads to higher user engagement (measured by tim
 
 ### ▶ Run Notebook
 ```bash
-jupyter notebook notebook/ab_testing_analysis_notebook_full.ipynb
+jupyter notebook notebook/ab_testing_analysis.ipynb
 ```
 
 ---
@@ -74,5 +71,4 @@ jupyter notebook notebook/ab_testing_analysis_notebook_full.ipynb
 
 ## 📬 Contact
 
-Created by **[Your Name]**  
-Feel free to connect on [LinkedIn](https://linkedin.com/in/your-profile) or explore more projects on [GitHub](https://github.com/yourusername).
+Created by **Jean-Emmanuel Kouadio**  
