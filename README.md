@@ -35,7 +35,7 @@ To determine whether **Page B** leads to higher user engagement (measured by tim
 
 ### ▶ Run Notebook
 ```bash
-jupyter notebook notebook/ab_testing_analysis.ipynb
+jupyter notebook ab_testing_analysis.ipynb
 ```
 
 ---
@@ -56,8 +56,8 @@ jupyter notebook notebook/ab_testing_analysis.ipynb
 
 - 📈 **Page B** showed a **28.6% higher** average time (1.62 vs. 1.26 mins)
 - ❌ Not statistically significant (p = 0.2815, power = 0.19)
-- ✅ Practical effect observed (Cohen’s d = 0.38)
-- 📊 Confidence Intervals and Bootstrap CI indicate potential value, but further testing is recommended
+- 📏 Small-to-moderate effect size (Cohen’s d = 0.38), but the test is underpowered, so this is not yet evidence of a real difference
+- 📊 The confidence intervals include zero, so the data cannot rule out no difference. More data is needed before acting on this
 
 ---
 
