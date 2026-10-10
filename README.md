@@ -46,7 +46,7 @@ jupyter notebook ab_testing_analysis.ipynb
 - 36 total web sessions:
   - 21 on Page A
   - 15 on Page B
-- Engagement measured by time-on-page (in hundredths of a second)
+- Engagement measured by time on page. The raw `Time` values are in units of 100 seconds (the source book's code multiplies them by 100 to get seconds), so Page A averaged about 126 seconds and Page B about 162 seconds. The notebook labels these values as minutes, which is wrong.
 
 [Dataset on Kaggle](https://www.kaggle.com/datasets/feeldidaxie/landing-page-ab-testing-dataset)
 
@@ -54,10 +54,10 @@ jupyter notebook ab_testing_analysis.ipynb
 
 ## 📌 Key Results
 
-- 📈 **Page B** showed a **28.6% higher** average time (1.62 vs. 1.26 mins)
+- 📈 **Page B** showed a **28.2% higher** average time (1.62 vs. 1.26 in the data's units, about 162 vs. 126 seconds)
 - ❌ Not statistically significant (p = 0.2815, power = 0.19)
 - 📏 Small-to-moderate effect size (Cohen’s d = 0.38), but the test is underpowered, so this is not yet evidence of a real difference
-- 📊 The confidence intervals include zero, so the data cannot rule out no difference. More data is needed before acting on this
+- 📊 The 95% confidence intervals for the two pages overlap heavily, so the data cannot rule out no difference. More data is needed before acting on this
 
 ---
 
